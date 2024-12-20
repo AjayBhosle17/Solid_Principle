@@ -27,12 +27,12 @@ namespace _2_DIP_DI.Controllers
 
 
         // Home controller depends on abstraction(IUserModel)
-        private  IUserModel _userModel;
+        private  ApiUserModel _userModel;
 
 
         //constructor Injection
 
-        public HomeController(IUserModel userModel)
+        public HomeController(ApiUserModel userModel)
         {
             _userModel = userModel;
         }

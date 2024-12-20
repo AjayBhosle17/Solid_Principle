@@ -17,6 +17,7 @@ namespace _2_DIP_DI
             // e.g. container.RegisterType<ITestService, TestService>();
 
             container.RegisterType<IUserModel, UserModel>();
+            container.RegisterType<IUserModel, ApiUserModel>();
             
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
