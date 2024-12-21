@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Learn_Without_DIP", "3_Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_DIp&DI", "4_DIp&DI\4_DIp&DI.csproj", "{DBE6804A-13FF-43E5-8532-FD7E6A656B12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_DI_IOC", "5_DI_IOC\5_DI_IOC.csproj", "{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DBE6804A-13FF-43E5-8532-FD7E6A656B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE6804A-13FF-43E5-8532-FD7E6A656B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBE6804A-13FF-43E5-8532-FD7E6A656B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

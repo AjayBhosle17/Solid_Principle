@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2_DIP_DI.Models
+namespace _5_DI_IOC.Models
 {
-    public interface IUserModel
+    public interface IUserData
     {
-        string GetUserName();
-        void Fun();
+        string GetName();
     }
 }

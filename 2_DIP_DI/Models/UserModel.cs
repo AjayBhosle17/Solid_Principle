@@ -19,6 +19,11 @@ namespace _2_DIP_DI.Models
         {
             return "Ajay Bhosle";
         }
+
+        public void Fun()
+        {
+            Console.WriteLine("Fun Called");
+        }
     }
 
     public class ApiUserModel : IUserModel
@@ -26,6 +31,10 @@ namespace _2_DIP_DI.Models
         public string GetUserName() {
 
             return "API Model";
+        }
+        public void Fun()
+        {
+            Console.WriteLine("Fun Called");
         }
     }
 }

@@ -26,21 +26,23 @@ namespace _2_DIP_DI.Controllers
         }*/
 
 
-        // Home controller depends on abstraction(IUserModel)
-        private  ApiUserModel _userModel;
+        // Home controller depends on Interface(IUserModel)
+        private  IUserModel _userModel;
 
 
         //constructor Injection
 
-        public HomeController(ApiUserModel userModel)
+        public HomeController(IUserModel userModel)
         {
             _userModel = userModel;
         }
        
 
+        
         public ActionResult Index()
         {
             string userName = _userModel.GetUserName();
+            _userModel.Fun();
 
             if (string.IsNullOrEmpty(userName))
             {
