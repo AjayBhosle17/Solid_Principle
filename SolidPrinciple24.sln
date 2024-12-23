@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_DIp&DI", "4_DIp&DI\4_DIp&
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_DI_IOC", "5_DI_IOC\5_DI_IOC.csproj", "{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Singleton_Design_Patteren", "6_Singleton_Design_Patteren\6_Singleton_Design_Patteren.csproj", "{B482EAA5-1275-473A-829E-AF4B41EDD328}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC9D5C7D-B103-4AFB-AF1F-C7051A74729B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B482EAA5-1275-473A-829E-AF4B41EDD328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B482EAA5-1275-473A-829E-AF4B41EDD328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B482EAA5-1275-473A-829E-AF4B41EDD328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B482EAA5-1275-473A-829E-AF4B41EDD328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
