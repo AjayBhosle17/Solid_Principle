@@ -26,6 +26,10 @@ namespace Web_UI
             UnityConfig.RegisterComponents();
 
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            //Configure log4net
+
+            log4net.Config.XmlConfigurator.Configure();
         }
     }
 }
